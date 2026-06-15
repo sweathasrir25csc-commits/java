@@ -45,7 +45,7 @@ public class day7 {
     }
 }
 */
-    static class payment {
+   /* static class payment {
         String amount;
         void transfer() {
             System.out.println("make a payment");
@@ -77,6 +77,9 @@ public class day7 {
         nBpayment.transfer();
     }
 }
+*/
+
+
 
 
 
