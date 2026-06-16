@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-/*public class day10 {
+public class day10 {
     static void main() {
         ArrayList<String> list= new ArrayList<String> ();
         String[] StudentsList={"Menaga","Mithra","Ram","Narthi","Nivetha"};
@@ -13,13 +13,14 @@ import java.util.ArrayList;
             System.out.println(s);
         }
         list.remove("Ram");
+        list.add("Swea");
         System.out.println();
         for (String s:  list){
             System.out.println(s);
         }
     }
-}*/
-public class Day10 {
+}
+/*public class Day10 {
     static void main() {
         String[] alpha = {"A","B","C","D"};
         System.out.println(alpha.length);
@@ -49,3 +50,5 @@ public class Day10 {
         }
     }
 }
+
+ */
