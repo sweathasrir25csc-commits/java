@@ -1,4 +1,5 @@
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -57,7 +58,7 @@ public class day10 {
  */
 public class day10 {
     static void main() {
-        LinkedList<String> queue = new LinkedList<String>();
+       /* LinkedList<String> queue = new LinkedList<String>();
         queue.add("Sweatha");
         queue.add("Menaga");
         queue.add("Narthika");
@@ -70,6 +71,22 @@ public class day10 {
     static void process(LinkedList<String> queue){
         String removed=queue.removeFirst();
         System.out.println("Removed:"+removed);
+
+    }
+}
+*/
+        void takeout(ArrayDeque<String> bucket){
+            String plate=bucket.pollLast();
+            System.out.print("Taking out of plate");
+        }
+        ArrayDeque<String> deque = new ArrayDeque<String>();
+        deque.offerLast("p1");
+        deque.offerLast("p2");
+        deque.offerLast("p3");
+        deque.offerLast("p4");
+        System.out.println(deque);
+        while(deque .size()>0) {
+
 
     }
 }
