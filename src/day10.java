@@ -1,4 +1,8 @@
-import java.util.ArrayList;
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import java.util.LinkedList;
+import java.util.List;
+
+/*import java.util.ArrayList;
 public class day10 {
     static void main() {
         ArrayList<String> list= new ArrayList<String> ();
@@ -19,7 +23,7 @@ public class day10 {
             System.out.println(s);
         }
     }
-}
+}*/
 /*public class Day10 {
     static void main() {
         String[] alpha = {"A","B","C","D"};
@@ -48,7 +52,24 @@ public class day10 {
         for(String s: list) {
             System.out.print(s);
         }
+   }
+}
+ */
+public class day10 {
+    static void main() {
+        LinkedList<String> queue = new LinkedList<String>();
+        queue.add("Sweatha");
+        queue.add("Menaga");
+        queue.add("Narthika");
+        queue.add("Mithra");
+        queue.add("Nivetha");
+        while(!queue.isEmpty()) {
+            process(queue);
+        }
+    }
+    static void process(LinkedList<String> queue){
+        String removed=queue.removeFirst();
+        System.out.println("Removed:"+removed);
+
     }
 }
-
- */

@@ -1,4 +1,4 @@
-public class day7 {
+public class day7 {}
     /*static class Request {
         String name;
         String date;
