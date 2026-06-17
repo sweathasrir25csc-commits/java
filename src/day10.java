@@ -114,7 +114,7 @@ import java.util.LinkedList;
                 }
             }
             public static void main(String[] args) {
-                LinkedList<Student> students = new LinkedList<>();
+                    LinkedList<Student> students = new LinkedList<>();
                 students.add(new Student("Arun", 101, 80));
                 students.add(new Student("Bala", 102, 75));
                 students.add(new Student("Charan", 103, 90));
