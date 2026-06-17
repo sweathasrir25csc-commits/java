@@ -38,7 +38,7 @@ import java.util.*;
 }*/
 public class day11{
     public static void main(String[] args) {
-        Map<String, Object> person = new HashMap<>();
+        Map<String, Integer> person = new HashMap<>();
         person.put("Ram",89);
         person.put("John",78);
         person.put("Aravindh",67);
