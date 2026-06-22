@@ -1,4 +1,4 @@
-public class Day14 {
+/*public class Day14 {
     static class Student {
         String name;
         int age;
@@ -59,3 +59,4 @@ public class Day14 {
 
     }
 }
+*/
