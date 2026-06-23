@@ -1,11 +1,3 @@
-public class Day_Strategy {
-    static void main() {
-        FeeCalculator calc = new FeeCalculator(new NoDiscount());
-        System.out.println("Final Fee with No Discount: "+calc.finalFee(1000));
-        calc.setDiscountStrategy(new SummerSaleDiscount());
-        System.out.println("Final Fee with SummerSale Discount: "+calc.finalFee(1000));
-    }
-}
 interface DiscountStrategy{
     double apply(double fee);
 }
